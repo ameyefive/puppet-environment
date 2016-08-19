@@ -2,7 +2,8 @@
 
 node 'centos.dev.com' {
 
-package { 'git': ensure => present }
+package { 'git': ensure => present, 
+          'elinks': ensure => present,}
  
 }
 
